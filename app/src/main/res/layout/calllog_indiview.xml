@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"
+        android:id="@+id/tv1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#032f8e"
+        android:layout_gravity="center"
+        android:id="@+id/tv2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Type"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#032f8e"
+        android:layout_gravity="center"
+        android:id="@+id/tv3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Duration"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#032f8e"
+        android:layout_gravity="center"
+        android:id="@+id/tv4"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Description"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#032f8e"
+        android:layout_gravity="center"
+        android:id="@+id/tv5"/>
+
+</LinearLayout>
